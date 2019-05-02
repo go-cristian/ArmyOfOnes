@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="@dimen/activity_vertical_margin"
+  android:layout_marginBottom="@dimen/activity_vertical_margin"
+  android:layout_marginLeft="@dimen/activity_horizontal_margin"
+  android:layout_marginRight="@dimen/activity_horizontal_margin"
+  android:background="@color/colorAccent"
+  android:orientation="vertical"
+  >
+
+  <co.iyubinest.armyofones.ui.widgets.SquareTextView
+    android:id="@+id/bill_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:textColor="@android:color/white"
+    />
+
+  <co.iyubinest.armyofones.ui.widgets.SquareTextView
+    android:id="@+id/bill_value"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="20sp"
+    android:typeface="sans"
+    />
+
+  <TextView
+    android:id="@+id/bill_currency"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bill_value"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="14sp"
+    android:typeface="sans"
+    />
+</RelativeLayout>

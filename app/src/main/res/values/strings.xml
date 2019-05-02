@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Army Of Ones</string>
+  <string name="retry">Retry</string>
+  <string name="loading">Loading…</string>
+  <string name="default_value">1</string>
+  <string name="bills_label">Bills (USD)</string>
+</resources>
